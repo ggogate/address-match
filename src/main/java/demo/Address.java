@@ -7,6 +7,7 @@ public class Address {
 	private String addressLine2;
 	private String addressLine3;
 	private String addressLine4;
+	private String unit;
 	private String streetName;
 	private String locality;
 	private String country;
@@ -47,6 +48,12 @@ public class Address {
 	}
 	public void setAddressLine4(String addressLine4) {
 		this.addressLine4 = addressLine4;
+	}
+	public String getUnit() {
+		return unit;
+	}
+	public void setUnit(String unit) {
+		this.unit = unit;
 	}
 	public String getStreetName() {
 		return streetName;

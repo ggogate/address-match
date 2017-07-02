@@ -1,7 +1,6 @@
 package demo.tests;
 
 import demo.Address;
-import demo.AddressHelper;
 import demo.AddressMatcher;
 
 public class AddressMatchTest2 {
@@ -14,9 +13,6 @@ public class AddressMatchTest2 {
 		a1.setZip("89999");
 		a1.setCountry("US");
 		AddressMatcher am = new AddressMatcher();
-		AddressHelper ah = new AddressHelper();
-		am.setHelper(ah);
-		//System.out.println(am.compare(s1, s2));
 
 	}
 
