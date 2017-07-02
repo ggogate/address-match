@@ -5,21 +5,7 @@ import org.apache.lucene.search.spell.JaroWinklerDistance;
 public class AddressMatcher {
 	
 	private AddressHelper helper;	
-	/*private AddressMatcher thisInstance;
-		
-	private AddressMatcher(){
-	
-	}
-	
-	public static AddressMatcher getInstance(){
-		if(thisInstance == null){
-			thisInstance = new AddressMatcher();
-			return thisInstance;
-		}else{
-			return thisInstance;
-		}
-	}*/
-		
+
 	/**
 	 * Match the string addresses based on helper data provided
 	 * If meta data is not provided, do a String match for JaroWinkler distance
