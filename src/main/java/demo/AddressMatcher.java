@@ -22,6 +22,7 @@ public class AddressMatcher {
 	 * @return
 	 */
 	public float compare(Address a, String s){
+		StringBuilder sb = new StringBuilder();
 		return 0;
 		
 	}
