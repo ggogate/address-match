@@ -1,6 +1,8 @@
 package demo;
 
 public class AddressHelper {
+	
+	private MatchType matchType;
 	private String country;
 	private String region;
 	private String city;
@@ -8,6 +10,12 @@ public class AddressHelper {
 	private String zip;
 	private String zip4;
 	
+	public MatchType getMatchType() {
+		return matchType;
+	}
+	public void setMatchType(MatchType matchType) {
+		this.matchType = matchType;
+	}
 	public String getCountry() {
 		return country;
 	}

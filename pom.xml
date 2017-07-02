@@ -4,6 +4,20 @@
   <artifactId>address-match</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-core -->
+	<dependency>
+	    <groupId>org.apache.lucene</groupId>
+	    <artifactId>lucene-core</artifactId>
+	    <version>6.5.1</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-spellchecker -->
+	<dependency>
+	    <groupId>org.apache.lucene</groupId>
+	    <artifactId>lucene-spellchecker</artifactId>
+	    <version>3.3.0</version>
+	</dependency>
+  </dependencies>
    <build>
     <plugins>
       <plugin>
