@@ -6,8 +6,8 @@ import demo.AddressMatcher;
 public class AddressMatchTest {
 
 	public static void main(String[] args) {
-		String s1 = "18150, N 56 Street, AZ, 85032";
-		String s2 = "18150, N56th Street, AZ, 85032";
+		String s1 = "12345, N 10 Street, AZ, 89999";
+		String s2 = "12345, N10th Street, AZ, 89999";
 		
 		AddressMatcher am = new AddressMatcher();
 		AddressHelper ah = new AddressHelper();
